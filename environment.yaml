@@ -1,0 +1,20 @@
+name: master_env
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - numpy=1.26.4
+  - pip
+  - python=3.12.0
+  - jupyterlab=4.1.7
+  - pandas=2.2.2
+  - matplotlib=3.8.4
+  - lime=0.2.0.1
+  - scikit-learn=1.4.2
+  - pytorch=2.3.0
+  - liac-arff=2.5.0
+  - optuna=3.6.1
+  - pip:
+    - ucimlrepo==0.0.6

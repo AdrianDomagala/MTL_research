@@ -1,4 +1,4 @@
-name: master_env
+name: MTL_env
 channels:
   - anaconda
   - conda-forge
@@ -18,3 +18,5 @@ dependencies:
   - optuna=3.6.1
   - pip:
     - ucimlrepo==0.0.6
+    - dill==0.3.8
+    - openml==0.14.2
